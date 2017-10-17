@@ -118,3 +118,33 @@ text-decoration: underline;
     font-size: 14px;
     display:block;
  }
+ .cube{
+     position: relative;
+ }
+ .inner_pic{
+     position: absolute;
+     top:50px;
+     left:20px;
+ }
+ .cube_tittle{
+    position: absolute;
+    top:20px;
+    right:20px;
+    color:#474545;
+    font-weight:bold;
+    font-size: 14px;
+   
+ }
+ .det{
+    position: absolute;
+    bottom:30px;
+    left:35px;
+    font-size: 13px;
+    color:gray ; 
+ }
+ .cube_det_icon{
+    position: absolute;
+    left:20px;
+    bottom: 20px;
+  
+ }
