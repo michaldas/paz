@@ -123,7 +123,7 @@ text-decoration: underline;
  }
  .inner_pic{
      position: absolute;
-     top:50px;
+     top:45px;
      left:20px;
  }
  .cube_tittle{
@@ -147,4 +147,20 @@ text-decoration: underline;
     left:20px;
     bottom: 20px;
   
+ }
+ .zone{
+     position: absolute;
+     width:40px;
+     border:1px solid black;
+     top:50px;
+
+     right:40px;
+     color:#525050;
+    font-size: 13px;
+ }
+ .z_icon{
+    position: absolute;
+    top:40px;
+    right:85px;
+ 
  }
