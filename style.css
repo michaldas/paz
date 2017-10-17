@@ -10,43 +10,97 @@ body{
 }
 .main{
   width: 900px;
-  background-color: #8383C2;
   margin: auto;  
 }
 .header{
 height: 105px;
 position: relative;
-background-color: gray;
+background-color: #A39D9D;
+margin-bottom: 20px;
 }
 #pazLogo{
  position: absolute;
  top:30px;   
 }
-.menu{
-     
-    display: inline-block;
-   position: relative;
-   top:75px;
-   right: 140px;
-    padding: 10px;
-
+#search_input{
+position: absolute;
+top:20px;
+right:735px;
+z-index: 104;
 
 }
-
+#search_button{
+    position: absolute;
+    right:870px;
+    top:20px;
+    z-index: 100;
+    
+}
+.menu{
+    display: inline-block;
+   position: relative;
+   top:65px;
+   right: 170px;
+    padding: 10px;
+/*z-index: 150;*/
+}
 .menu > li{
     list-style:none;
-    
 }
 .menu a {
     text-decoration: none;
     color:white;
     font-weight: bold;
-    
+    font-size: 15px;
+    border-right: 1px solid white;
+    padding-right: 10px;
     
 }
 .dropdown-content{
    position: absolute;
- /*   display: none;*/
-/*  background-image: "images\menu_dropdown_bg.png";*/
-
+   display: none;
+   min-width: 140px;
+   background-color: #A39D9D;
+   
+   /*  background-image: "images\menu_dropdown_bg.png";*/
 }
+.menu:hover .dropdown-content {
+    display: block;
+}
+.menu a:hover{
+color:blue;
+text-decoration: underline;
+}
+.dropdown-content a:hover{
+    background-color: lightgray ;
+}
+.dropdown-content a{
+    display: block;
+    padding: 4px; 
+    border-bottom: 0.5px solid white;
+}
+.galleryItem img {
+    padding:8px 2px;
+}
+.galleryItem{
+    position: relative;
+    display:inline-block;
+    
+}
+.pic {
+    border-radius: 0 0 25px 0;
+    position: relative;
+ }
+ .desc {
+     width:220px;
+     font-size:14px;
+     color:red;
+     position: absolute;
+     top:270px;
+     right:20px;
+ }
+ .bg{
+     position: absolute;
+     top:250px;
+     right: 10px;
+ }
