@@ -25,16 +25,16 @@ margin-bottom: 20px;
   
 .search{
     position: absolute;
-    top:10px;
+    top:20px;
     left:5px;
 }
 #english {
     color:white;
     font-size:12px;
+    text-decoration: none;
 }
 #english:hover{
     color:blue;
-    font-style: none;
 }
 .menu{
     display: inline-block;
@@ -181,20 +181,24 @@ text-decoration: underline;
 #footer > ul >li{
     display: inline;
     list-style: none;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
     color:white;
     border-right: 1px solid white;
     padding-right: 10px;
-    padding-top: 15px;
+    
+
 }
 #footer a{
     color:white;
     list-style: none;
+    text-decoration: none;
+    
     
 }
 
 
 #footer .color-red{
     color:red;
+    font-weight: normal;
 }
