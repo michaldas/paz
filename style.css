@@ -28,14 +28,19 @@ margin-bottom: 20px;
     top:10px;
     left:5px;
 }
-a .search {
-    color:white:
+#english {
+    color:white;
+    font-size:12px;
+}
+#english:hover{
+    color:blue;
+    font-style: none;
 }
 .menu{
     display: inline-block;
    position: relative;
    top:65px;
-   right: 170px;
+   right: 120px;
     padding: 10px;
     z-index: 1000;
 }
@@ -105,8 +110,9 @@ text-decoration: underline;
      font-size: 13px;
      color:white;
  }
- .read_more a:hover{
-color: blue;
+ 
+.read_more:hover{
+     color: blue;
  }
  .read_more_icon{
     position: absolute;
@@ -162,6 +168,9 @@ color: blue;
 .zone a{
     color:#525050;
 }
+.zone a:hover{
+    color:blue;
+}
 #footer{
     height: 40px;
     background-color: #A39D9D;
@@ -177,6 +186,12 @@ color: blue;
     color:white;
     border-right: 1px solid white;
     padding-right: 10px;
+    padding-top: 15px;
+}
+#footer a{
+    color:white;
+    list-style: none;
+    
 }
 
 
