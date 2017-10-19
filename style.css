@@ -56,6 +56,10 @@ margin-bottom: 20px;
     padding-right: 10px;
     
 }
+.menu a:last-child{
+    border-right: none;   
+}
+
 .dropdown-content{
    position: absolute;
    display: none;
