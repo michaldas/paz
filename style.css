@@ -10,7 +10,7 @@ body{
 }
 .main{
   width: 900px;
-  margin: auto;  
+   margin: auto;  
 }
 .header{
 height: 105px;
@@ -175,12 +175,98 @@ text-decoration: underline;
 .zone a:hover{
     color:blue;
 }
-#footer{
+.r-side{
+    width: 122px;
+   display: inline-block;
+   background-color: gray;
+}
+.centeral{
+    width: 440px;
+    display: inline-block;
+}
+.l-side{
+    width:292px;
+    display: inline;
+    background-color: yellow;
+}
+.rel{
+    position: relative;
+}
+.form1{
+    width: 347px;
+    position: absolute;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 5px 0;
+    right: 10px;
+    top:10px;
+}
+.unbold{
+    font-weight: normal;
+}
+.form-cube{
+    position: absolute;
+}
+#form_title{
+    color: #005ca0
+    font-weight: bold;
+    font-size:15px;
+    
+}
+.feilds{
+    width: 245px;
+    position: absolute;
+    right:50px;
+    line-height: 200%;
+}
+
+ .in{
+     width: 160px;
+     position: absolute;
+     left:10px;
+ }   
+
+.lab75{
+    width: 75px;
+}
+#text_content{
+    width: 235px;
+    height: 108px;
+    padding: 3px;
+}
+#submit{
+    width: 33px;
+    height: 21 px;
+    background-color: blue;
+    color:#fff;
+    position: absolute;
+    right:200px;
+   top:230px;
+}
+#submit:hover{
+    background-color: yellow;
+    color:black;
+}
+.l-side{
+    position: relative;
+}
+.s_cube{
+    position: absolute;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#footer
+{
     height: 40px;
     background-color: #A39D9D;
    display: fixed;
-    bottom: 0;
-    
+   bottom: 0;
+
 }
 #footer > ul >li{
     display: inline;
@@ -208,4 +294,9 @@ text-decoration: underline;
 #footer .color-red{
     color:red;
     font-weight: normal;
+}
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: table;
 }
