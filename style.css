@@ -271,8 +271,21 @@ text-decoration: underline;
 .l-side{
     position: relative;
 }
-.s_cube{
+.s_cube_tittle{
     position: absolute;
+    top:20px;
+    right:20px;
+    color:#005ca0;
+    font-weight:bold;
+    font-size: 15px;
+}
+.s_det{
+    position: absolute;
+    top:50px;
+    right: 20px;
+    font-size: 13px;
+    color:gray ; 
+   
 }
 .row::after{
     content: "";
