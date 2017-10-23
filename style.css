@@ -200,10 +200,17 @@ text-decoration: underline;
     width:292px;
     display: inline;
     background-color: yellow;
+    float: left;
+    position: relative;
+}
+.s_cube{
+    position: absolute;
 }
 .rel{
     position: relative;
+    
 }
+
 .form1{
     width: 347px;
     position: absolute;
